@@ -1,0 +1,4 @@
+Prompt,Accuracy,JSON Valid %
+V1 Basic,0.59,0.9
+V2 Reasoning,0.34,0.285
+V3 Rubric,0.305,0.33
