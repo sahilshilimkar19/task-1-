@@ -1,8 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from db import SessionLocal, engine
-from models import Review, Base
-from llm import call_llm
+
+from backend.db import SessionLocal, engine
+from backend.models import Review, Base
+from backend.llm import call_llm
+
 
 Base.metadata.create_all(bind=engine)
 
